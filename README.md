@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+attr_accessor :my_excel_file
+validates :my_excel_file, :excel => true
+```
 
 ## Development
 
